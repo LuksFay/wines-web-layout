@@ -1,0 +1,153 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f5f1;
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+li {
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+header ul{
+    display: flex;
+
+}
+
+header ul li{
+    margin-right: 20px;
+}
+
+header p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#encabezado{
+    background: url(header.jpg);
+    background-size: cover;
+    padding: 170px 0;
+    background-position: bottom;
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'Lora', serif;
+    color: #280400;
+    margin-bottom: 0;
+}
+
+#encabezado p{
+    width: 50%;
+    color: #666;
+    font-family: 'Lora', serif;
+    line-height: 2em;
+    margin-bottom: 40px;
+}
+#encabezado a, #contact .izquierda a{
+    text-decoration: none;
+    color: #280400;
+    border: 1px solid #280400;
+    padding: 20px 40px 20px 40px;
+    transition: 0.4s;
+}
+
+#encabezado a:hover, #contact .izquierda a:hover{
+    background: #280400;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.derecha a:hover{
+    background: #fff;
+    color: #280400;
+    transition: 0.4s;
+}
+
+.columnas{
+    display: flex;
+    line-height: 2em;
+    padding: 4em;
+}
+
+
+.columna img{
+    width: 60%;
+}
+
+.columna p{
+    color: #666;
+}
+
+#about h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lora', serif;
+    color: #280400;
+    margin-bottom: 0;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    background: url(footer.png);
+    padding: 80px 0;
+}
+
+#contact .izquierda{
+    width: 40%;
+}
+
+#contact h2{
+    font-size: 60px;
+    font-family: 'Lora', serif;
+    color: #280400;
+    margin-bottom: 50px;
+}
+
+#contact .izquierda p{
+    font-size: 14px;
+    color: #666;
+    margin-top: 40px;
+    width: 80%;
+}
+
+#contact .derecha{
+    background: #280400;
+    color: #fff;
+    padding: 80px 50px;
+
+}
+
+.datos{
+    font-size: 13px;
+}
+
+.derecha h3{
+    font-size: 40px;
+}
+
+.derecha a{
+    color: #fff;
+    border: 1px solid
+    rgba(232, 226, 215, 0.2);
+    text-decoration: none;
+    padding: 15px 30px;
+    transition: 0.4s;
+}
