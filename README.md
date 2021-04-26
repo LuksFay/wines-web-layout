@@ -2,32 +2,30 @@
 Pagina de Vinos de practica, basado en un tutorial que me ayudo a entender algunos conceptos de posicionamiento para poder seguir con proyecto-maquetado
 
 esto es un test copypaste para readme
-# Foobar
+# titulo
 
-Foobar is a Python library for dealing with word pluralization.
+esto una descripcion del titulo
 
-## Installation
+## como realizar la Instalación
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+descripción del [link](#) para instalar.
 
 ```bash
-pip install foobar
+esto de aca es el copypaste para pegar en tu editor de texto o en tu terminal
 ```
 
-## Usage
+## modo de uso
 
 ```python
-import foobar
+import herramienta
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+etc.etc('palabra') # returns 'otra palabra'
+abc.abc('ej') # returns 'ejemplo'
+usb.usb('hdmi') # returns 'vga'
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Contribuciones
+personas que hayan contribuido o una peticion de creditos
 
-Please make sure to update tests as appropriate.
-
-## License
+## tipo de licencia
 [MIT](https://choosealicense.com/licenses/mit/)
